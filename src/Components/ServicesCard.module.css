@@ -1,0 +1,29 @@
+
+
+.servicesCard{
+  width: 16.875rem;
+  height: 16.81rem;
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.servicesCard + .servicesCard{
+  margin-top: 1.5rem;
+}
+
+.servicesCard strong{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  
+}
+
+.servicesCard p{
+  margin-top: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.625rem;
+  color: var(--gray-700);
+}

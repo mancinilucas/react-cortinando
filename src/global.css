@@ -1,0 +1,41 @@
+:root{
+  --white: #ffffff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-500: #767676;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --blue-900: #002347;
+  --blue-700: #003666;
+  --blue-500: #003f7d;
+  --blue-50: 	#cddaf4;
+  --yellow-500: #ff8e00;
+  --orange-500: #fd7702;
+  --orange-300: #ff5003;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  background-color: var(--blue-900);
+}
+
+body, input, textarea, button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
