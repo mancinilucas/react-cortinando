@@ -4,7 +4,9 @@ import { Services } from './Components/Services'
 
 import './global.css'
 import styles from './App.module.css'
-import { Works } from './Components/Works'
+import { Contact } from './Components/Contact'
+
+
 
 export function App(){
   return (
@@ -14,12 +16,8 @@ export function App(){
         <main>
           <About />
           <Services />
-          <Works 
-            originalWidth={30}
-            originalHeight={30}
-            showBullets={true}
-
-          />
+          <Contact />
+          
         </main>
       </div>
     </>

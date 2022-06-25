@@ -1,4 +1,4 @@
-.services{
+.container{
   max-width: 70rem;
   background-color: var(--blue-50);
   border-radius: 8px;
@@ -10,13 +10,8 @@
   align-items: center;
 }
 
-.services h2{
+.container h2{
   font-size: 1.875rem;
   margin-bottom: 1rem;
-}
-
-.services p{
-  text-align: justify;
-  line-height: 1.625rem;
-  margin-bottom: 4rem;
+  align-self: start;
 }
