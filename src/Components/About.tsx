@@ -1,4 +1,5 @@
 import styles from './About.module.css'
+import { ButtonContact } from './ButtonContact'
 
 export function About(){
   return(
@@ -11,6 +12,8 @@ export function About(){
         <h1>Cortinas alto padrão e persianas personalizadas</h1>
         <p>A Cortinando oferece um serviço diferenciado de consultoria e produção de cortinas e persianas sob medida para você.</p>
       </div>
+
+      <ButtonContact text="Solicite um orçamento" />
       
     </div>
   )

@@ -2,7 +2,7 @@
   max-width: 70rem;
   background-color: var(--blue-50);
   border-radius: 8px;
-  padding: 2.5rem;
+  padding: 1.5rem;
   margin-bottom: 2.5rem;
 
   display: flex;
@@ -14,4 +14,5 @@
   font-size: 1.875rem;
   margin-bottom: 1rem;
   align-self: start;
+  color: var(--blue-950);
 }
