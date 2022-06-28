@@ -11,9 +11,10 @@ export function About(){
       <div className={styles.homeText}>
         <h1>Cortinas alto padrão e persianas personalizadas</h1>
         <p>A Cortinando oferece um serviço diferenciado de consultoria e produção de cortinas e persianas sob medida para você.</p>
+
+        <ButtonContact text="Solicite um orçamento" />
       </div>
 
-      <ButtonContact text="Solicite um orçamento" />
       
     </div>
   )

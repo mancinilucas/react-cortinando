@@ -16,7 +16,7 @@
   color: var(--blue-950);
 }
 
-.contact>p{
+.contactInfo p{
   font-weight: 400;
   text-align: justify;
   line-height: 1.25rem;
@@ -97,4 +97,60 @@ footer{
   margin-top: 2rem;
   padding: 0 1.5rem;
   gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .contact{
+    padding: 7.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+
+  .contactInfo{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .contactInfo h2{
+    font-size: 2.25rem;
+    margin: 0 0 0.75rem;
+  }
+
+  .contactInfo p{
+    margin-bottom: 1.5rem;
+  }
+
+  footer{
+    padding: 0 7.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footerLogo span a{
+    font-size: 2rem;
+  }
+
+  .footerSocial{
+    margin-top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .footerSocial .socialIcon{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  
 }

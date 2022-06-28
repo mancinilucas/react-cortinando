@@ -8,9 +8,13 @@ export function Contact(){
   return(
     <>
       <div className={styles.contact}>
-        <h2>Entre em contato com a gente!</h2>
-        <p>Entre em contato com a Cortinando, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
-        <ButtonContact text="Entrar em contato"/>
+        <div className={styles.contactInfo}>
+          <h2>Entre em contato com a gente!</h2>
+          <p>Entre em contato com a Cortinando, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+          <div>
+            <ButtonContact text="Entrar em contato" />
+          </div>
+        </div>
 
         <div className={styles.contactList}>
           <ul>
